@@ -29,3 +29,28 @@ $ sudo systemctl start network
      Search for DEMO , KEYSTONE_ADMIN ,CONFIG_CONTROLLER
 
     9. packstack --answer-file=/root/myanswerfile.txt
+    
+    Now the openstack dashboard should be available at 10.X.X.X/dashboard
+    
+    #Configure a compute Node on another VM
+    
+    vi /root/myanswerfile.txt
+    
+    modify the details as below:
+    
+    CONFIG_NEUTRON_OVS_TUNNEL_IF = ens192
+    CONFIG_COMPUTE_HOSTS = < ip of the newly created vm >
+    
+    save and exit the file
+    
+    packstack --answer-file=/root/myanswerfile.txt
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
