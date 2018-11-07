@@ -6,7 +6,7 @@ $ sudo systemctl stop NetworkManager
 $ sudo systemctl enable network
 $ sudo systemctl start network
 
-# https://www.rdoproject.org/install/packstack/    
+
      1. yum install -y centos-release-openstack-rocky
     2. yum-config-manager --enable openstack-rocky
     3. install yum-utils
