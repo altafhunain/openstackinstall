@@ -1,1 +1,1 @@
-Openstack Installation Step by Syep guide 
+Openstack Installation on CentOS 7 
